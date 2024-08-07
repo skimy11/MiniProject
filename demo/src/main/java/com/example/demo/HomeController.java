@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class HomeController {
     @GetMapping("/")
     public String getMethodName() {
-        return "Hello";
+        return "된다구리!!";
     }
 }
